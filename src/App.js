@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <div className="App">
-        <Routes> {/* Use Routes component instead of Route */}
+        <Routes>  
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
